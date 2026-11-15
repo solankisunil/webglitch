@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Webglitch | Digital Marketing, Automation & Growth</title>
+<meta name="description" content="Grow your business with performance marketing, SEO, CRM automation, creative production, conversion-focused websites and AI workflows.">
+<link rel="canonical" href="https://example.com/"><!-- TODO: replace with live URL -->
+<meta property="og:title" content="Webglitch | Digital Marketing, Automation & Growth">
+<meta property="og:description" content="Performance marketing, SEO, CRM automation, creative production, websites and AI workflows.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23D5FF45'/%3E%3Cpath d='M9 10l4 12 3-8 3 8 4-12' stroke='%23111210' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#FAFAF5;--sf:#fff;--tx:#111210;--mu:#686B65;--bd:#E7E8E1;--li:#D5FF45;--li2:#A7E800;--tint:#F3FBD0;--dk:#111210;--dkt:#FAFAF5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#111210;--sf:#1B1C19;--tx:#FAFAF5;--mu:#A8ABA3;--bd:#2D2F2A;--tint:#242B10;--dk:#0A0A09;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#111210;--sf:#1B1C19;--tx:#FAFAF5;--mu:#A8ABA3;--bd:#2D2F2A;--tint:#242B10;--dk:#0A0A09;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(80px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 16px/1.6 Manrope,Inter,system-ui,sans-serif}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+a{color:inherit}:focus-visible{outline:3px solid var(--li2);outline-offset:3px}
+.w{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:84px 0}
+h1,h2,h3{line-height:1.08;letter-spacing:-.03em;margin:0}
+h1{font-size:clamp(2.6rem,6.5vw,4.8rem);font-weight:800}h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:800;max-width:18ch}h3{font-size:1.25rem;font-weight:800}
+.hl{background:var(--li);color:#111210;padding:0 .12em;border-radius:8px}
+.ey{font-size:.8rem;font-weight:800;letter-spacing:.08em;margin:0 0 14px}
+.lead{color:var(--mu);font-size:1.1rem;max-width:52ch;margin:16px 0 0}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--li);color:#111210;border:0;border-radius:12px;padding:14px 22px;font:800 1rem Manrope,sans-serif;text-decoration:none;cursor:pointer;transition:transform .15s,background .15s}
+.btn:hover{background:var(--li2);transform:translateY(-2px)}
+.btn.o{background:transparent;color:var(--tx);border:1.5px solid var(--tx)}.btn.o:hover{background:var(--sf)}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);border-bottom:1px solid var(--bd);padding-top:env(safe-area-inset-top,0px)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-weight:800;font-size:1.4rem;letter-spacing:-.04em;text-decoration:none}.logo i{display:inline-block;width:10px;height:10px;background:var(--li2);border-radius:3px;margin-left:3px}
+.links{display:flex;gap:26px;align-items:center}.links a{text-decoration:none;font-weight:600;font-size:.95rem;color:var(--mu)}.links a:hover{color:var(--tx)}
+.links .btn{color:#111210;padding:10px 16px}
+.mb{display:none;background:none;border:1.5px solid var(--bd);border-radius:10px;width:44px;height:44px;color:var(--tx);cursor:pointer}
+@media(max-width:860px){.mb{display:block}.links{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg);flex-direction:column;align-items:stretch;padding:16px 20px 24px;border-bottom:1px solid var(--bd)}.links.open{display:flex}.links a{padding:10px 0}}
+.hero{padding:56px 0 84px}.hg{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
+@media(max-width:900px){.hg{grid-template-columns:1fr}}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.vis{position:relative;min-height:440px;background:linear-gradient(160deg,var(--tint),var(--sf));border:1px solid var(--bd);border-radius:28px;overflow:hidden}
+.card{position:absolute;background:var(--sf);border:1px solid var(--bd);border-radius:16px;padding:14px 16px;font-size:.8rem;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.card b{display:block;font-size:.78rem;color:var(--mu);font-weight:600}.card strong{font-size:1.25rem;letter-spacing:-.02em}
+.c1{top:7%;left:6%;width:58%}.c2{top:40%;right:5%;width:50%}.c3{bottom:7%;left:9%;width:46%}
+.bars{display:flex;align-items:flex-end;gap:6px;height:54px;margin-top:8px}.bars span{flex:1;background:var(--li);border-radius:4px 4px 0 0;border:1px solid var(--li2)}
+.ill{position:absolute;bottom:10px;right:14px;font-size:.7rem;color:var(--mu)}
+@media(prefers-reduced-motion:no-preference){.c2{animation:fl 6s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-8px)}}}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+@media(max-width:980px){.sg{grid-template-columns:repeat(2,1fr)}}@media(max-width:640px){.sg{grid-template-columns:1fr}}
+.sc{background:var(--sf);border:1px solid var(--bd);border-radius:22px;padding:26px;display:flex;flex-direction:column;gap:12px;transition:transform .2s,border-color .2s}
+.sc:hover{transform:translateY(-4px);border-color:var(--li2)}
+.sc .t{display:flex;justify-content:space-between;align-items:center}
+.ic{width:48px;height:48px;border-radius:14px;background:var(--li);display:grid;place-items:center;color:#111210}
+.n{font-weight:800;color:var(--mu);font-size:.9rem}
+.sc p{margin:0;color:var(--mu)}.sc ul{margin:4px 0 8px;padding:0;list-style:none;display:grid;gap:6px;font-size:.93rem}
+.sc li:before{content:"";display:inline-block;width:8px;height:8px;background:var(--li2);border-radius:2px;margin-right:10px}
+.lm{margin-top:auto;font-weight:800;text-decoration:none;border:0;background:none;color:var(--tx);cursor:pointer;font-size:.95rem;text-align:left;padding:0;font-family:inherit}.lm:hover{text-decoration:underline}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;align-items:stretch}
+@media(max-width:900px){.pg{grid-template-columns:1fr}}
+.pc{background:var(--sf);border:1px solid var(--bd);border-radius:22px;padding:30px;display:flex;flex-direction:column;gap:14px;position:relative}
+.pc.pop{background:var(--tint);border-color:var(--li2)}
+.tag{position:absolute;top:18px;right:18px;background:var(--li);color:#111210;font-size:.75rem;font-weight:800;padding:4px 10px;border-radius:8px}
+.pr{font-size:2.4rem;font-weight:800;letter-spacing:-.04em}.pr small{font-size:.95rem;color:var(--mu);font-weight:600;letter-spacing:0}
+.pc ul{list-style:none;padding:0;margin:0 0 12px;display:grid;gap:9px}.pc li:before{content:"✓";font-weight:800;margin-right:10px}
+.pc .btn{margin-top:auto;justify-content:center}.pc p{margin:0;color:var(--mu)}
+.note{color:var(--mu);font-size:.88rem;margin-top:22px;max-width:80ch}
+.st{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:48px;position:relative}
+@media(max-width:760px){.st{grid-template-columns:1fr}}
+.s{padding:0 20px 0 0;position:relative}
+.s .d{width:56px;height:56px;border-radius:50%;background:var(--li);color:#111210;display:grid;place-items:center;font-weight:800;position:relative;z-index:1}
+.s:not(:last-child):after{content:"";position:absolute;top:27px;left:56px;right:0;border-top:2px dashed var(--bd)}
+.s h3{margin:16px 0 6px}.s p{margin:0;color:var(--mu)}
+@media(max-width:760px){.s{padding:0 0 32px 76px}.s .d{position:absolute;left:0;top:0}.s h3{margin-top:0}.s:not(:last-child):after{top:56px;bottom:0;left:27px;right:auto;border-top:0;border-left:2px dashed var(--bd)}}
+.wg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+@media(max-width:980px){.wg{grid-template-columns:1fr}}
+.wc{background:var(--sf);border:1px solid var(--bd);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.demo{align-self:flex-start;background:var(--li);color:#111210;font-size:.72rem;font-weight:800;padding:3px 9px;border-radius:7px}
+.wc dl{margin:0;display:grid;gap:8px;font-size:.92rem}.wc dt{font-weight:800;font-size:.8rem;color:var(--mu)}.wc dd{margin:0}
+.res{background:var(--bg);border:1px dashed var(--mu);border-radius:12px;padding:10px 12px;color:var(--mu);font-size:.85rem}
+.ab{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:start}@media(max-width:860px){.ab{grid-template-columns:1fr}}
+.ab h2{max-width:22ch}.pl{display:grid;gap:14px}.pl div{background:var(--sf);border:1px solid var(--bd);border-radius:18px;padding:20px 22px;font-weight:800;display:flex;gap:14px;align-items:center}
+.pl span{width:12px;height:12px;background:var(--li2);border-radius:3px;flex:none}
+.ct{background:var(--dk);color:var(--dkt);border-radius:32px;padding:56px 36px;margin:0 20px}
+.ct .lead{color:#B9BCB4}.ct h2{color:var(--dkt)}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}@media(max-width:700px){.fg{grid-template-columns:1fr}}
+.f{display:flex;flex-direction:column;gap:6px}.f.full{grid-column:1/-1}
+label{font-weight:600;font-size:.88rem}
+input,select,textarea{font:inherit;color:#FAFAF5;background:#1E1F1C;border:1.5px solid #3A3C36;border-radius:12px;padding:13px 14px;width:100%}
+textarea{min-height:110px;resize:vertical}input::placeholder,textarea::placeholder{color:#8A8D85}
+input[aria-invalid=true],select[aria-invalid=true],textarea[aria-invalid=true]{border-color:#FF8A7A}
+.er{color:#FF9D8F;font-size:.82rem;min-height:1.1em}
+.hp{position:absolute;left:-9999px}
+.ck{display:flex;gap:10px;align-items:flex-start;font-size:.88rem;color:#B9BCB4}.ck input{width:20px;height:20px;margin-top:2px;accent-color:#D5FF45;flex:none}
+.msg{margin-top:16px;padding:14px 16px;border-radius:12px;font-weight:600}
+.msg.ok{background:#243016;color:#D5FF45}.msg.bad{background:#3B1D18;color:#FFB4A8}.msg.info{background:#2A2B27;color:#E7E8E1}
+.btn:disabled{opacity:.6;cursor:wait}
+.fq{max-width:760px;margin-top:40px;display:grid;gap:10px}
+.fq details{background:var(--sf);border:1px solid var(--bd);border-radius:16px;padding:0 22px}
+.fq summary{cursor:pointer;font-weight:800;padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.fq summary::-webkit-details-marker{display:none}.fq summary:after{content:"+";font-size:1.4rem;line-height:1}.fq details[open] summary:after{content:"−"}
+.fq details p{margin:0 0 18px;color:var(--mu)}
+footer{border-top:1px solid var(--bd);padding:48px 0 36px;margin-top:84px}
+.fgr{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap}.fgr p{margin:6px 0;color:var(--mu)}
+.fl{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;padding:0;margin:0;max-width:420px}.fl a{text-decoration:none;color:var(--mu);font-weight:600}.fl a:hover{color:var(--tx)}
+.cp{margin-top:32px;color:var(--mu);font-size:.88rem}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:15;display:flex;align-items:center;gap:8px;background:#25D366;color:#111210;font-weight:800;font-size:.95rem;text-decoration:none;border-radius:999px;padding:12px 18px;box-shadow:0 6px 18px rgba(0,0,0,.18);transition:transform .15s}.wa:hover{transform:translateY(-2px)}
+@media(max-width:520px){.wa{font-size:0;gap:0;padding:14px}}
+#top{position:fixed;left:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));width:46px;height:46px;border-radius:14px;border:0;background:var(--li);color:#111210;font-weight:800;font-size:1.2rem;cursor:pointer;display:none;z-index:15}
+</style>
+</head>
+<body>
+<header><div class="w nav">
+<a class="logo" href="#home" aria-label="Webglitch home">Webglitch<i></i></a>
+<button class="mb" id="mb" aria-expanded="false" aria-controls="links" aria-label="Open menu">☰</button>
+<nav class="links" id="links" aria-label="Main">
+<a href="#home">Home</a><a href="#services">Services</a><a href="#packages">Packages</a><a href="#about">About</a><a href="#contact">Contact</a>
+<a class="btn" href="#contact" data-pick="">Book a Free Call</a>
+</nav></div></header>
+
+<main id="home">
+<section class="hero"><div class="w hg">
+<div>
+<p class="ey">DIGITAL GROWTH AGENCY</p>
+<h1>Turn More Clicks Into <span class="hl">Customers.</span></h1>
+<p class="lead">We help ambitious businesses grow through performance marketing, conversion-focused websites, AI automation and customer retention.</p>
+<div class="cta"><a class="btn" href="#contact" data-pick="">Book a Free Discovery Call →</a><a class="btn o" href="#services">Explore Our Services</a></div>
+</div>
+<div class="vis" role="img" aria-label="Illustrative analytics dashboard cards. Not real client results.">
+<div class="card c1"><b>Campaign Performance</b><strong>3.9x ROAS</strong><span style="color:var(--mu)"> ↑ 18% vs last month</span><div class="bars" aria-hidden="true"><span style="height:35%"></span><span style="height:50%"></span><span style="height:42%"></span><span style="height:68%"></span><span style="height:60%"></span><span style="height:85%"></span><span style="height:100%"></span></div></div>
+<div class="card c2"><b>Revenue Overview</b><strong>₹12.4L</strong><br><span style="color:var(--mu)">↑ 22% this month</span></div>
+<div class="card c3"><b>Customer Growth</b><strong>+1,284</strong><br><span style="color:var(--mu)">new customers</span></div>
+<span class="ill">Illustrative preview</span>
+</div></div></section>
+
+<section id="services"><div class="w">
+<p class="ey">01. OUR SERVICES</p><h2>Everything You Need to Grow Digitally.</h2>
+<p class="lead">Six core services to help you attract, convert and retain more customers — all under one roof.</p>
+<div class="sg" id="sg"></div></div></section>
+
+<section id="packages" style="background:var(--sf);border-block:1px solid var(--bd)"><div class="w">
+<p class="ey">02. OUR PACKAGES</p><h2>Choose Your Growth Plan.</h2>
+<p class="lead">Flexible packages designed for different stages of your business. Need something custom? We’ll build a plan for you.</p>
+<div class="pg" id="pg"></div>
+<p class="note">Prices are starting points and depend on scope. Ad spend, premium software, extensive development and additional production are billed separately unless specified in the proposal.</p></div></section>
+
+<section><div class="w">
+<p class="ey">03. HOW IT WORKS</p><h2>A Simple Process. Real Results.</h2>
+<ol class="st" style="list-style:none;padding:0">
+<li class="s"><div class="d">01</div><h3>Discover</h3><p>Understand your goals, challenges and opportunities.</p></li>
+<li class="s"><div class="d">02</div><h3>Build</h3><p>Create a tailored strategy and action plan.</p></li>
+<li class="s"><div class="d">03</div><h3>Launch</h3><p>Execute campaigns, content and automation.</p></li>
+<li class="s"><div class="d">04</div><h3>Optimize</h3><p>Track results and continuously improve performance.</p></li></ol></div></section>
+
+<section id="work" hidden style="background:var(--sf);border-block:1px solid var(--bd)"><div class="w">
+<p class="ey">04. CLIENT SUCCESS</p><h2>Real Businesses. Real Growth.</h2>
+<p class="lead">Explore how strategy, creative execution and technology can work together to solve real business challenges.</p>
+<div class="wg" id="wg"></div>
+<p class="note">The projects above are demo layouts with fictional brands. They are not client engagements. Replace them with verified case studies and results.</p></div></section>
+
+<section id="about"><div class="w ab">
+<div><h2>We Combine Marketing, Technology and Strategy to Help Businesses Grow.</h2>
+<p class="lead">Webglitch helps businesses build stronger digital foundations, attract the right customers and create more efficient marketing systems.</p>
+<p class="lead">Our approach brings together performance marketing, creative execution, conversion-focused websites and intelligent automation — so your digital efforts work toward the same business goals.</p>
+<p style="margin-top:28px"><a class="btn" href="#contact" data-pick="">Let’s Talk About Your Business →</a></p></div>
+<div class="pl"><div><span></span>Strategy before execution</div><div><span></span>Data-informed decisions</div><div><span></span>Continuous testing and improvement</div></div>
+</div></section>
+
+<div class="ct" id="contact"><div class="w" style="max-width:900px;padding:0">
+<h2>Find Your Next Growth Opportunity.</h2>
+<p class="lead">Tell us a bit about your business and we’ll get back to you with a tailored plan.</p>
+<form id="form" novalidate class="fg" aria-describedby="status">
+<div class="f"><label for="name">Full name *</label><input id="name" name="name" autocomplete="name" required><span class="er" id="e-name"></span></div>
+<div class="f"><label for="biz">Business name *</label><input id="biz" name="business" autocomplete="organization" required><span class="er" id="e-biz"></span></div>
+<div class="f"><label for="email">Work email *</label><input id="email" name="email" type="email" autocomplete="email" required><span class="er" id="e-email"></span></div>
+<div class="f"><label for="url">Website URL (optional)</label><input id="url" name="website" type="url" placeholder="https://" autocomplete="url"><span class="er" id="e-url"></span></div>
+<div class="f"><label for="service">Service interested in *</label><select id="service" name="service" required></select><span class="er" id="e-service"></span></div>
+<div class="f"><label for="budget">Monthly marketing budget *</label><select id="budget" name="budget" required></select><span class="er" id="e-budget"></span></div>
+<div class="f full"><label for="chal">Biggest business challenge *</label><textarea id="chal" name="challenge" required></textarea><span class="er" id="e-chal"></span></div>
+<input class="hp" name="company_site" tabindex="-1" autocomplete="off" aria-hidden="true">
+<!-- SPAM PROTECTION: add Turnstile/reCAPTCHA widget here and verify token server-side -->
+<div class="f full"><label class="ck"><input type="checkbox" id="consent" required><span>I agree to Webglitch contacting me about my enquiry and to the <a href="#privacy">Privacy Policy</a>. *</span></label><span class="er" id="e-consent"></span></div>
+<div class="f full"><button class="btn" id="sub" type="submit">Book My Free Call →</button><div id="status" role="status" aria-live="polite"></div></div>
+</form></div></div>
+
+<section id="faq"><div class="w"><p class="ey">FAQ</p><h2>Questions, answered.</h2><div class="fq" id="fq"></div></div></section>
+</main>
+
+<footer><div class="w">
+<div class="fgr"><div><a class="logo" href="#home">Webglitch<i></i></a><p><strong>Marketing. Automation. Growth.</strong></p><p>Helping ambitious businesses build smarter digital growth systems.</p></div>
+<ul class="fl">
+<li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#packages">Packages</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li>
+<li><a href="#privacy" id="privacy">Privacy Policy</a></li><li><a href="#terms" id="terms">Terms of Service</a></li>
+<li><a href="https://www.linkedin.com/" rel="noopener" target="_blank" data-social="linkedin">LinkedIn</a></li><li><a href="https://www.instagram.com/" rel="noopener" target="_blank" data-social="instagram">Instagram</a></li>
+</ul></div>
+<p class="cp">© 2026 Webglitch. All rights reserved.</p></div></footer>
+<a class="wa" id="wa" href="https://wa.me/" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.6A8.5 8.5 0 1 1 8 19.5z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-.8.8c-.8-.4-1.600-1.200-2-2l.8-.8-1-2z"/></svg>Chat on WhatsApp</a>
+<button id="top" aria-label="Back to top">↑</button>
+
+<script>
+// ===== CONFIG: edit here =====
+const FORM_ENDPOINT = ""; // Paste your Google Apps Script web app URL here (sends each lead to Gmail). Empty = demo mode, nothing is sent.
+const WHATSAPP_NUMBER = ""; // Digits only with country code, e.g. 919876543210. Empty = opens WhatsApp's contact picker instead.
+const WHATSAPP_MSG = "Hi Webglitch, I'd like to know more about your services.";
+const SOCIAL = {linkedin:"https://www.linkedin.com/", instagram:"https://www.instagram.com/"}; // TODO: replace with real profiles
+const I = {
+ pm:'<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
+ seo:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
+ crm:'<path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/>',
+ cr:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4-2.5z"/>',
+ web:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/>',
+ ai:'<rect x="5" y="7" width="14" height="12" rx="3"/><path d="M12 3v4M9 13h.01M15 13h.01"/>'};
+const SV = [
+ ["Performance Marketing","Generate qualified leads and sales through data-driven paid campaigns.",["Meta and Google Ads","Campaign strategy and setup","Creative and audience testing","Conversion tracking and optimization"],"pm"],
+ ["SEO & AI Search Visibility","Help your business get discovered across search engines and AI-powered search experiences.",["Technical SEO","Keyword and content strategy","Local SEO","Answer Engine Optimization"],"seo"],
+ ["CRM & Marketing Automation","Turn enquiries into customers and existing customers into repeat buyers.",["WhatsApp and email automation","CRM setup and integrations","Lead nurturing workflows","Customer segmentation and journeys"],"crm"],
+ ["Content & Creative Production","Create compelling content that strengthens your brand and supports campaign performance.",["Reels and short-form videos","UGC-style ad creatives","Creative strategy and scripting","Content repurposing"],"cr"],
+ ["Websites & Conversion Optimization","Build digital experiences that turn visitors into enquiries and buyers.",["Shopify and WordPress websites","Landing page development","Conversion rate optimization","Website analytics and user experience"],"web"],
+ ["AI & Workflow Automation","Reduce repetitive work and connect the tools your business uses every day.",["AI assistants and chatbots","Workflow automation","CRM and third-party integrations","Automated reporting and operations"],"ai"]];
+const PK = [
+ ["Launch","A","₹25,000","For businesses establishing their digital presence.",["One paid acquisition channel","Basic creative support","Landing page support","Monthly performance reporting"]],
+ ["Growth","B","₹50,000","For businesses seeking consistent acquisition and conversion.",["Paid campaigns across Meta and Google","Creative production, up to 8 assets per month","Landing page and CRO support","WhatsApp/CRM integration","Monthly strategy and reporting"],1],
+ ["Scale","C","₹85,000","For businesses needing integrated marketing, retention and automation.",["Multi-channel paid campaigns","Advanced creative and content support","Website optimization","CRM and automation workflows","Monthly strategy, reporting and dedicated support"]]];
+const WK = [
+ ["Demo: Northfold Apparel","D2C fashion","Low repeat purchase rate","Performance Marketing, CRM & Marketing Automation","Paid acquisition paired with WhatsApp and email win-back journeys."],
+ ["Demo: Brightpath Advisors","Professional services","Few qualified enquiries from the website","SEO & AI Search Visibility, Websites & Conversion Optimization","Service-page rebuild with local SEO and an enquiry-first layout."],
+ ["Demo: Kettle & Co.","Ecommerce","Manual order follow-ups slowing the team","AI & Workflow Automation, Content & Creative Production","Automated order updates and reporting, plus short-form product video."]];
+const FQ = [
+ ["Do you work with businesses of all sizes?","We work with businesses based on their goals, requirements and fit with our services."],
+ ["Can I hire you for just one service?","Yes. You can engage Webglitch for an individual service or combine multiple services into a tailored plan."],
+ ["Is the advertising budget included?","Advertising spend is separate from agency fees unless explicitly stated in your proposal."],
+ ["How soon can I expect results?","Timelines depend on the service, starting point, competition, budget and implementation. Paid campaigns can generate early data relatively quickly, while SEO and organic growth generally require sustained effort."],
+ ["Do you offer custom packages?","Yes. We’ll recommend a scope based on your business objectives and available budget."]];
+const SO = [...SV.map(s=>s[0]),"Multiple Services"];
+const BO = ["Under ₹25,000","₹25,000–₹50,000/month","₹50,000–₹1,00,000/month","₹1,00,000+/month","One-time project","Not sure yet"];
+const $ = s=>document.querySelector(s), svg=k=>`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${I[k]}</svg>`;
+$("#sg").innerHTML = SV.map((s,i)=>`<article class="sc"><div class="t"><div class="ic">${svg(s[3])}</div><span class="n">0${i+1}</span></div><h3>${s[0]}</h3><p>${s[1]}</p><ul>${s[2].map(d=>`<li>${d}</li>`).join("")}</ul><button class="lm" data-pick="${s[0]}">Learn More →</button></article>`).join("");
+$("#pg").innerHTML = PK.map(p=>`<article class="pc${p[5]?" pop":""}">${p[5]?'<span class="tag">Popular</span>':""}<h3>Package ${p[1]}: ${p[0]}</h3><div class="pr">${p[2]} <small>/ month</small></div><p>${p[3]}</p><ul>${p[4].map(d=>`<li>${d}</li>`).join("")}</ul><button class="btn" data-pkg="${p[0]}">Get Started →</button></article>`).join("");
+$("#wg").innerHTML = WK.map(w=>`<article class="wc"><span class="demo">DEMO PROJECT · FICTIONAL BRAND</span><h3>${w[0].replace("Demo: ","")}</h3><dl><div><dt>Industry</dt><dd>${w[1]}</dd></div><div><dt>Challenge</dt><dd>${w[2]}</dd></div><div><dt>Services delivered</dt><dd>${w[3]}</dd></div><div><dt>Strategy</dt><dd>${w[4]}</dd></div></dl><div class="res">Verified results: add real, approved figures here.</div><button class="lm" data-pick="">View Case Study →</button></article>`).join("");
+$("#fq").innerHTML = FQ.map(f=>`<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("");
+$("#service").innerHTML = '<option value="">Select a service</option>'+SO.map(o=>`<option>${o}</option>`).join("");
+$("#budget").innerHTML = '<option value="">Select a budget</option>'+BO.map(o=>`<option>${o}</option>`).join("");
+document.querySelectorAll("[data-social]").forEach(a=>a.href=SOCIAL[a.dataset.social]);
+$("#wa").href="https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent(WHATSAPP_MSG);
+// Mobile menu
+const mb=$("#mb"),lk=$("#links");
+mb.onclick=()=>{const o=lk.classList.toggle("open");mb.setAttribute("aria-expanded",o);mb.textContent=o?"✕":"☰";mb.setAttribute("aria-label",o?"Close menu":"Open menu")};
+lk.addEventListener("click",e=>{if(e.target.closest("a")){lk.classList.remove("open");mb.setAttribute("aria-expanded","false");mb.textContent="☰"}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&lk.classList.contains("open")){mb.click();mb.focus()}});
+// Preselect service / package
+const goForm=(svc,note)=>{if(svc)$("#service").value=svc;if(note&&!$("#chal").value)$("#chal").value=note;$("#contact").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});setTimeout(()=>$("#name").focus({preventScroll:true}),500)};
+document.addEventListener("click",e=>{
+ const p=e.target.closest("[data-pick]");if(p){if(p.tagName==="A")e.preventDefault();goForm(p.dataset.pick||"")}
+ const k=e.target.closest("[data-pkg]");if(k)goForm("Multiple Services","Interested in the "+k.dataset.pkg+" package. ")});
+// Back to top
+const tp=$("#top");addEventListener("scroll",()=>tp.style.display=scrollY>700?"block":"none",{passive:true});
+tp.onclick=()=>scrollTo({top:0,behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});
+// Form
+const F=$("#form"),st=$("#status");
+const rules={name:v=>v.trim()?"":"Enter your full name.",biz:v=>v.trim()?"":"Enter your business name.",
+ email:v=>!v.trim()?"Enter your work email.":/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)?"":"Enter a valid email, like name@company.com.",
+ url:v=>{if(!v.trim())return"";try{const u=new URL(v);return/^https?:$/.test(u.protocol)?"":"Start the URL with http:// or https://."}catch{return"Enter a valid URL, like https://example.com."}},
+ service:v=>v?"":"Choose a service.",budget:v=>v?"":"Choose a budget.",chal:v=>v.trim()?"":"Tell us your biggest challenge."};
+const fid={name:"#name",biz:"#biz",email:"#email",url:"#url",service:"#service",budget:"#budget",chal:"#chal"};
+function check(k){const el=$(fid[k]),m=rules[k](el.value);$("#e-"+k).textContent=m;el.setAttribute("aria-invalid",!!m);if(m)el.setAttribute("aria-describedby","e-"+k);return m}
+Object.keys(rules).forEach(k=>$(fid[k]).addEventListener("blur",()=>check(k)));
+F.addEventListener("submit",async e=>{
+ e.preventDefault();st.innerHTML="";
+ const bad=Object.keys(rules).filter(k=>check(k));
+ const c=$("#consent");$("#e-consent").textContent=c.checked?"":"Please agree so we can contact you.";if(!c.checked)bad.push("consent");
+ if(bad.length){$(bad[0]==="consent"?"#consent":fid[bad[0]]).focus();st.innerHTML='<div class="msg bad">Fix the highlighted fields and try again.</div>';return}
+ if(F.company_site.value)return; // honeypot
+ const data=Object.fromEntries(new FormData(F));delete data.company_site;
+ if(!FORM_ENDPOINT){st.innerHTML='<div class="msg info">Demo mode: your details are valid, but this form is not connected yet, so nothing was sent. Set FORM_ENDPOINT in the script to go live.</div>';return}
+ const b=$("#sub");b.disabled=true;b.textContent="Sending…";
+ try{const r=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(data)});
+  if(!r.ok)throw 0;st.innerHTML='<div class="msg ok">Thanks. We’ve received your enquiry and will reply by email.</div>';F.reset()}
+ catch{st.innerHTML='<div class="msg bad">We couldn’t send your enquiry. Check your connection and try again.</div>'}
+ b.disabled=false;b.textContent="Book My Free Call →"});
+</script>
+</body>
+</html>
